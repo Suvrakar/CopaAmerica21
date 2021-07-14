@@ -11,6 +11,7 @@ body{
 }
 
 .container{
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,16 +57,14 @@ header{
     margin-top: 10px;
     display:inline-block;
     padding: 10px 40px;
-    background: linear-gradient(orange,yellow);
-    border-radius: 30px;
-    box-shadow: 5px 5px 20px #888888;
+    background: #E02C6D;
 }
 
 .bttn a{
     text-decoration: none;
     color: black;
-    font-weight: 600;
-
+    font-weight: 400;
+    color:white;
 }
 
 
@@ -93,6 +92,7 @@ header{
 .parentHighlight{
     display: flex;
     justify-content: center;
+    margin-top: 150px;
 }
 
 .highlightText{
@@ -105,7 +105,9 @@ header{
     margin-right: 15%;
 }
 
-.footerArea{}
+.footerArea{
+    margin-top: 150px;
+}
 
 
 .footerImage{
@@ -128,4 +130,10 @@ header{
     width: 32px;
     height: 32px;
     padding: 15px;
+}
+
+.footerArea p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700px;
 }
